@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://kit.fontawesome.com/1a0377a86c.js" crossorigin="anonymous"></script>
+	<title>Academo Online Attendance(AOA)</title>
+</head>
+<body>
+	<header>
+	   <nav id="header" class="navbar">
+		<div class="container">
+			<img src="Academo_logo.png" width="10%">
+		</div>
+		<div id="btn" class="list">
+			<ul>
+				<a href="home">Home</a>
+				<a href="about-us">About Us</a>
+				<a href="vision">Vision</a>
+				<a href="contact">Contact Us</a>
+				<a href="search"><i class="fas fa-search"></i></a>
+			</ul>	
+		</div>	
+	</header>
+	<section class="main-content">
+		<div class="col-lg-12 col-md-12 col-sm-12">
+			<img src="bg1.png">	
+		</div>
+
+	<section>	
+		<div id="title" class="col-lg-12 col-md-12 col-sm-12">
+		<form action="register">
+		<div>
+			<h1>TIME IN</h1>
+			<h3>Attendance login</h3>
+			<h3>*Required</h3>
+		</div>
+		<div class="content">
+			<label for="name"><h3>Name*</h3></label>
+			<input type="text" name="your names" placeholder="your answer">
+		</div>
+		<div class="row">
+			<h3>Time In*</h3>
+			<label for="time in">Time</label>
+			<br>
+			<input type="time" autofocus="time" min="01" max="24" oninput=||(value='');>
+
+		</div>
+		<br>
+		<div class="row">
+			<button class="button" onclick="submit()"><span>Submit</span></button>
+		</div>
+		</form>
+	</div>
+	</section>
+
+	<section class="main-content">
+	
+		<div id="title" class="col-lg-12 col-md-12 col-sm-12">
+		<form action="register">
+		<div>
+			<h1>TIME OUT</h1>
+			<h3>Attendance login</h3>
+			<h3>*Required</h3>
+		</div>
+		<div class="content">
+			<label for="name"><h3>Name*</h3></label>
+			<input type="text" name="your names" placeholder="your answer">
+		</div>
+		<div class="row">
+			<h3>Time Out*</h3>
+			<label for="time in">Time</label>
+			<br>
+			<input type="time" autofocus="time" min="01" max="24" oninput=||(value='');>
+			
+		</div>
+		<br>
+		<div class="row">
+			<button class="button" onclick="submit()"><span>Submit</span></button>
+		</div>
+		</form>
+	</div>	
+	</section>
+</section>
+
+	<footer class="footer">
+		<div class="copyright">&copy; 2021 Academo Inc. All rights reserved
+		</div>
+	</footer>
+
+
+</body>
+</html>
