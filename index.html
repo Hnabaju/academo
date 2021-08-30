@@ -3,85 +3,103 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/1a0377a86c.js" crossorigin="anonymous"></script>
-	<title>Academo Online Attendance(AOA)</title>
+	<title>Academo atendance</title>
 </head>
 <body>
-	<header>
-	   <nav id="header" class="navbar">
+	<section id="main-content" class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+	<header class="header">
 		<div class="container">
-			<img src="Academo_logo.png" width="10%">
+			<img id="home" src="Academo_logo.png" alt="Academo-image">
 		</div>
-		<div id="btn" class="list">
-			<ul>
-				<a href="home">Home</a>
-				<a href="about-us">About Us</a>
-				<a href="vision">Vision</a>
-				<a href="contact">Contact Us</a>
-				<a href="search"><i class="fas fa-search"></i></a>
-			</ul>	
-		</div>	
-	</header>
-	<section class="main-content">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<img src="bg1.png">	
-		</div>
+		<div class="head">
 
-	<section>	
-		<div id="title" class="col-lg-12 col-md-12 col-sm-12">
+		</label>
+				<a class="active" href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="vision.html">Vision</a>
+				<a href="contact.html">Contact Us</a>
+				<a href=""><i class="fas fa-search"></i></a>
+		</div>
+	</header>
+	  <div id="content" class="col-lg-4 col-md-6 col-sm-12"></div>
+	  <div id="content-wrapper" class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+	  	<div class="text-wrapper">
+		<div class="timein">
+		<table>
+		<tr>
+		<td>
 		<form action="register">
-		<div>
+		<div class="text">
 			<h1>TIME IN</h1>
 			<h3>Attendance login</h3>
-			<h3>*Required</h3>
+			<h3 class="required">*Required</h3>
 		</div>
-		<div class="content">
-			<label for="name"><h3>Name*</h3></label>
+		<div class="contents">
+			<label for="name" class="name">Name</label>
+			<br>
+			<br>
 			<input type="text" name="your names" placeholder="your answer">
 		</div>
 		<div class="row">
 			<h3>Time In*</h3>
-			<label for="time in">Time</label>
+			<label for="timein">Time</label>
 			<br>
-			<input type="time" autofocus="time" min="01" max="24" oninput=||(value='');>
+			<input type="time" autofocus="true" min="2" max="2" oninput=||(value='');>
 
 		</div>
 		<br>
-		<div class="row">
-			<button class="button" onclick="submit()"><span>Submit</span></button>
+		<div class="column">
+			<button class="button1" onclick="submit()"><span>Submit</span></button>
 		</div>
 		</form>
+	</td>
+	</tr>
+	</table>
 	</div>
-	</section>
+    
+    
 
-	<section class="main-content">
 	
-		<div id="title" class="col-lg-12 col-md-12 col-sm-12">
+	    <div id="content2" class="col-lg-4 col-md-6 col-sm-12">
+		<div class="timeout">
+		<table>
+		<tr>
+		<td>
 		<form action="register">
-		<div>
+		<div class="text">
 			<h1>TIME OUT</h1>
 			<h3>Attendance login</h3>
-			<h3>*Required</h3>
+			<h3 class="required">*Required</h3>
 		</div>
-		<div class="content">
-			<label for="name"><h3>Name*</h3></label>
+		<div class="contents">
+			<label for="name" class="name">Name</label>
+			<br>
+			<br>
 			<input type="text" name="your names" placeholder="your answer">
 		</div>
 		<div class="row">
 			<h3>Time Out*</h3>
-			<label for="time in">Time</label>
+			<label for="timeout">Time</label>
 			<br>
-			<input type="time" autofocus="time" min="01" max="24" oninput=||(value='');>
-			
+			<input type="time" autofocus="true" min="2" max="2" oninput=||(value='');>
+
 		</div>
 		<br>
-		<div class="row">
+		<div class="column">
 			<button class="button" onclick="submit()"><span>Submit</span></button>
-		</div>
-		</form>
+	    </div>
+       </form>
+	</td>
+	</tr>
+	</table>
+	</div>
+	</div>
+	</div>
 	</div>	
-	</section>
 </section>
 
 	<footer class="footer">

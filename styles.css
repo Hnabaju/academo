@@ -1,3 +1,201 @@
-.main-content{
+*{
+	box-sizing: border-box;
+	
+}
+
+body{
+	width: 100%;
+	position: absolute;
+	color: gray;
+	font-family: helvetica, Arial, sans-serif;
+}
+#home{
+	width: 10%;
+	text-align: left;
+	position: absolute;
+	
+
+}
+
+
+.header{
+	margin-bottom: 0;
+}
+.head{
+	text-align: right;
+	
+
+
+}
+a{
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 30px;
+	letter-spacing: 1px;
+	background: skyblue;
+	border-radius: 20px;
+	padding: 2px 10px;
+	margin: 5px;
+	margin-bottom: 0;
+}
+
+a:hover{
 	background: blue;
+	color: white;
+	transition: .5s;
+}
+
+.required{
+	color: red;
+}
+.button1{
+	color: whitesmoke;
+	background: red;
+	font-weight: 700;
+	border: 0;
+	width: 70px;
+	height: 30px;
+	margin-left: 20px;
+
+}
+.button{
+	color: ghostwhite;
+	background: #e56717;
+	font-weight: 700;
+	border: -5px;
+	width: 70px;
+	height: 30px;
+	margin-top: 0;
+	margin-left: 20px;
+}
+footer{
+	font-weight: 700;
+	text-align: center;
+	margin-top: 10px;
+
+}
+.name:after{
+	content: "*";
+	color: red;
+
+}
+
+
+#content{
+	position: relative;
+	background: url(bg1.png)no-repeat center;
+	background-size: cover;
+	height: 750px;
+	margin-top: 20px;
+}
+
+#content-wrapper{
+	background: url(bg2.jpg)no-repeat center;
+	height: auto;
+	background-size: cover;
+
+
+}
+.text{
+	position: relative;
+	background: maroon;
+	width: 500px;
+	margin: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+.contents{
+	background: maroon;
+	height: 100px;
+	margin: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+.row{
+	background: maroon;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 15px;
+	margin-bottom: 3px;
+	padding-left: 10px;
+}
+.text-wrapper{
+	display: inline-block;
+
+
+
+
+}
+.timein{
+	width: 40%;
+	margin: 100px;
+	position: relative;
+}
+.timeout{
+	width: 40%;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 890px;
+	margin-top: 0;
+}
+
+@media(max-width: 1199px){
+	.col-md-12, .col-sm-12, .col-xs-12 {
+		position: relative;
+		bottom: ;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+
+	}
+	
+.timein{
+	width: 100%;
+	float: left;
+	margin-left: 30px;
+
+}
+.timeout{
+	width: 100% ;
+	float: left;
+	margin-top: -1000px;
+	margin-right: -20px;
+}
+.text-wrapper{
+	display: inline;
+}
+#content-wrapper{
+	height: 1200px;
+}
+
+a {
+	font-size: 16px;
+	margin-top: 0;
+
+}
+
+.head{
+	
+	width: 100%;
+	height: 50px;
+	background: lightgreen;
+	top: 0;
+	left: 0;
+	text-align: right;
+	margin-top: 0;
+	display: block;
+	padding: 15px;
+
+
+	
+	
+}
+#content{
+	margin-top: 0;
+}
+
 }
