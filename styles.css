@@ -98,15 +98,18 @@ footer{
 }
 .text{
 	position: relative;
-	background: maroon;
+	background: snow;
 	width: 500px;
 	margin: 15px;
-	padding: 10px;
+	padding: 10px c;
 	border-radius: 10px;
 	padding-left: 10px;
+	
+	
+	
 }
 .contents{
-	background: maroon;
+	background: snow;
 	height: 100px;
 	margin: 15px;
 	padding: 10px;
@@ -114,7 +117,7 @@ footer{
 	padding-left: 10px;
 }
 .row{
-	background: maroon;
+	background: snow;
 	border-radius: 10px;
 	padding: 10px;
 	margin: 15px;
@@ -123,11 +126,8 @@ footer{
 }
 .text-wrapper{
 	display: inline-block;
-
-
-
-
 }
+
 .timein{
 	width: 40%;
 	margin: 100px;
@@ -205,8 +205,7 @@ a {
 		margin-top: 0;
 		padding-right: 0px;
 		padding-left: 0;
-		float: left;
-		width: 100%;
+		width: 600px;
 		align-content: center;
 
 	}
@@ -217,22 +216,24 @@ body{
 	
 .timein{
 	width: 50%;
-	float: left;
+
 	margin-left: 30px;
 
 }
 .timeout{
 	width: 50% ;
-	float: left;
 	margin-top: -1000px;
-	margin-right: -20px;
+	float: left;
+	margin-right: 270px;
+	
 }
 .text-wrapper{
-	display: inline;
+	display: block;
 }
 #content-wrapper{
 	height: 1200px;
 	width: 600px;
+	margin-bottom: 5px;
 }
 
 a {
@@ -250,11 +251,11 @@ a {
 	left: 0;
 	text-align: right;
 	margin: 0;
-	display: block;
 	padding: 0;	
 }
 #content{
 	margin-top: 0;
 	width: 600px;
+
 }
 }
