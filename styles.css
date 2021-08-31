@@ -133,7 +133,7 @@ footer{
 }
 .timein{
 	width: 40%;
-	margin: 100px;
+	margin: 80px;
 	position: relative;
 }
 .timeout{
@@ -141,7 +141,7 @@ footer{
 	float: right;
 	position: absolute;
 	right: 0;
-	top: 910px;
+	top: 900px;
 	margin-top: 0;
 }
 
