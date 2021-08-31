@@ -101,7 +101,7 @@ footer{
 	background: snow;
 	width: 500px;
 	margin: 15px;
-	padding: 10px c;
+	padding: 10px;
 	border-radius: 10px;
 	padding-left: 10px;
 	
@@ -126,8 +126,11 @@ footer{
 }
 .text-wrapper{
 	display: inline-block;
-}
 
+
+
+
+}
 .timein{
 	width: 40%;
 	margin: 100px;
